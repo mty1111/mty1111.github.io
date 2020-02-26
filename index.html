@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>nothing</title>
+</head>
+
+<body>
+<a href='javascript:openUrl()'>Click here to Questionnaire</a>
+<script>
+var sites=['http://www.baidu.com/',
+'http://www.zhihu.com/'
+];
+
+function openUrl(){
+    var i = Math.round(Math.random()*(sites.length-1));
+    window.location.href=sites[i];
+    return false;
+}
+</script>
+</body>
+
+</html>
